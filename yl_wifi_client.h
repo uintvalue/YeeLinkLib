@@ -9,7 +9,7 @@ class yl_wifi_client : public yl_tcp_client
 {
 public:
 	yl_wifi_client();
-	yl_wifi_client(uint8_t sock);
+	//yl_wifi_client(uint8_t sock);
 
 	virtual int connect(const char *host, uint16_t port);
 	virtual size_t send(int);

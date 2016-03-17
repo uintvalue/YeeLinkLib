@@ -3,9 +3,9 @@
 yl_wifi_client::yl_wifi_client()
 {}
 
-yl_wifi_client::yl_wifi_client(uint8_t sock)
-	: client_(sock)
-{}
+// yl_wifi_client::yl_wifi_client(uint8_t sock)
+//	: client_(sock)
+// {}
 
 int yl_wifi_client::connect(const char *host, uint16_t port)
 {
